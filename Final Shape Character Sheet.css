@@ -1,0 +1,178 @@
+.wrapper {
+	background-color: black;
+	color: white;
+	background-image:
+		radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+		radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+		radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+		radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+	padding: 2px;
+}
+
+.tabs {
+    margin-left: 10px;
+    width: 15%;
+}
+
+.page1,
+.page2,
+.page3,
+.page4 {
+    display: none;
+    margin-top: 15px;
+	margin-left: 5px;
+}
+
+.marginleft {
+    margin-left: 5%;
+}
+
+.skillsection {
+	margin-left: 5%;
+    margin-right: 4%;
+}
+
+.bottomsection {
+	margin-left: 7%;	
+}
+
+.hidetoalign {
+    opacity: 0;
+}
+
+.repeatdiv {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.tabstoggle[value="page1"] ~ div.page1,
+.tabstoggle[value="page2"] ~ div.page2,
+.tabstoggle[value="page3"] ~ div.page3,
+.tabstoggle[value="page4"] ~ div.page4 {
+    display: block;
+}
+
+.twocolumns {
+    display: flex;
+}  
+
+.notes {
+    width: 50em;
+}
+
+.notesdiv {
+    margin-top: 1%;
+}   
+
+.ability {
+	width: 15%;
+}
+
+.largedialog textarea {
+    max-width: 95%;
+    height: 70px;
+}
+
+.section {
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.buttonsection {
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    margin: auto;
+    overflow: auto;
+}
+
+.valuecolumn {
+    display: inline-grid;
+}
+
+.modcolumn {
+    margin-left: 1%;
+    display: inline-grid;
+}  
+
+.labelcolumn {
+    display: inline-grid;
+    text-align: center;
+}
+
+label {
+	color: white;    
+}
+
+clickable {
+    color: white;
+}
+
+button {
+	background-color: black;
+	color: white;
+}
+
+h3 {
+	color: white;
+    margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.level {
+    margin-right: 10%;
+    margin-left: 10%;    
+    padding-top: 10px;
+    font-size: x-large;
+    padding-bottom: 10px;
+    background-color: green;
+    text-align: center;
+    display: block;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.ui-dialog .charsheet input {
+    height: 24px;
+}
+
+.sheet-rolltemplate-wod table {
+    width: 189px;
+    height: 189px;
+    padding: 2px;
+    background: url(https://i.imgur.com/HAIDoEW.jpg) top left;
+    background-size: 189px 189px;
+    background-repeat: no-repeat;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    border-spacing: 0;
+}
+
+.sheet-rolltemplate-wod th {
+	color: rgb(255, 255, 255);
+    padding: 15px 2px 2px 20px;
+	line-height: 1.2em;
+	font-size: 1.2em;
+    text-align: left;
+}
+ 
+.sheet-rolltemplate-wod td {
+    padding-left: 20px;
+    font-size: 1.0em;
+    vertical-align: top;
+}
+ 
+.sheet-rolltemplate-wod .sheet-result {
+    font-size: 1.2em;
+    text-align: center;
+    color: rgb(0, 255, 0);
+    padding-bottom: 20px;
+}
+ 
+.sheet-rolltemplate-wod .inlinerollresult  {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+}
